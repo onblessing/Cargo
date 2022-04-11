@@ -4,84 +4,242 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Cargo</title>
+    <link rel="stylesheet" href="../cargo/assets/css/style.css">
+    <title>cargo</title>
 </head>
 <body>
-    <header class="header" id="home">
-        <div class="container">
-            <div class="header_wrapper">
-                <nav class="header_nav">
-                    <a href="#home"><img src="assets/img/logo.svg" alt="Логотип"></a>
-                    <ul class="header_menu">
-                        <li><a href="#" class="menu_link">Цены и сроки</a></li>
-                        <li><a href="#" class="menu_link">Услуги</a></li>
-                        <li><a href="#" class="menu_link">О компании</a></li>
-                        <li><a href="#" class="menu_link">Контакты</a></li>
-                        <li><a href="#" class="menu_link">Оформить груз</a></li>
-                    </ul>
-                    <a href="#" class="header_btn">Оставить заявку</a> 
-                </nav>
-            </div>
+    <!--header-->
+    <header>
+        <a href="#" class="logo"><img src="../cargo/assets/img/logo.png" alt="logo"></a>
+        <div class="header_txts">
+            <a href="#" class="hd_txt">Цены и сроки</a>
+            <a href="#" class="hd_txt">Услуги</a>
+            <a href="#" class="hd_txt">О компании</a>
+            <a href="#" class="hd_txt">Контакты</a>
+            <a href="#" class="hd_txt">Оформить груз</a>
         </div>
+        <a href="#" class="btn1">Оставить заявку</a>
     </header>
-    <section class="section1">
-        <div class="container">
-            <div class="section1_wrapper">
-                <div class="section1_box">
-                    <div class="section1_texts">
-                        <h1 class="section1_title">Прямое КАРГО<br>из Китая</h1>
-                        <p class="section1_subtitle">Доставляем любые грузы из Китая<br>по честной цене</p>
-                        <a href="#" class="section1_btn">Рассчитать стоимость <img src="assets/img/arrow_btn.svg" alt="Стрелка"></a>
-                    </div>
+    <!--section1-->
+    <section class="sec1">
+        <div class="sec1_things">
+            <p class="sec1_maintxt">Прямое КАРГО из Китая</p>
+            <p class="sec1_txt">Доставляем любые грузы из Китая по честной цене</p>
+            <a href="#" class="btn2">
+                Рассчитать стоимость
+                <img src="../cargo/assets/img/ArrowInButtonRight.svg" alt="ArrowInButtonRight">
+            </button>
+        </div>
+    </section>
+     <!--section2-->
+    <section class="sec2">
+        <p class="sec2_maintxt">Получить рассчет стоимости доставки вашего груза</p>
+        <div class="sec2_circles">
+            <p class="circle">1</p>
+            <p class="circle">2</p>
+            <p class="circle1">3</p>
+        </div>
+        <div class="sec2_blocks">
+            <div class="block_inp">
+                <p class="sec2_inp_txt">Категория товара:</p>
+                <input type="text" placeholder="Категория товара" class="sec2_inp">
+            </div>
+            <div class="block_inp">
+                <p class="sec2_inp_txt">Стоимость груза:</p>
+                <input type="text" placeholder="Введите стоимость" class="sec2_inp">
+            </div>
+        </div>
+        <div class="sec2_blocks2">
+            <div class="block_inp">
+                <p class="sec2_inp_txt">Вес груза (кг):</p>
+                <input type="text" placeholder="Введите вес" class="sec2_inp">
+            </div>
+            <div class="block_inp">
+                <div class="block_inp_txt">
+                    <p class="sec2_inp_txt">Объем груза (м3):</p>
+                    <a href="#" class="sec2_ahref">Рассчитать</a>
+                </div>
+                <input type="text" placeholder="Введите объем" class="sec2_inp">
+            </div>
+        </div>
+        <div class="sec2_last_line">
+            <div class="sec2_check_boxes">
+            <div class="cb1">
+                <input type="checkbox" name="Страховка" id="qwe" class="sec2_cb2"> <label for="qwe" class="lb_qwe">Страховка</label>
+            </div>
+            <div class="cb2">
+                <input type="checkbox" name="Таможня" id="zxc" class="sec2_cb2"> <label for="zxc" class="lb_qwe">Таможенное оформление</label>
+            </div>
+        </div>
+        <div class="block_inp2">
+            <p class="sec2_inp_txt">Код ТН ВЭД:</p>
+            <input type="text" placeholder="Введите код" class="sec2_inp">
+        </div>
+        </div>
+        <div class="sec2_img_block">
+            <p class="img_block_txt">фотография.jpeg</p>
+            <a href="#" class="sec2_ahref2">Удалить фото</a>
+        </div>
+        <a href="#" class="btn3">Загрузить фото товара</a>
+        
+        <button class="btn4">
+            <p class="btn2_txt">Следующий шаг</p>
+            <img src="../cargo/assets/img/ArrowInButtonRight.svg" alt="ArrowInButtonRight">
+        </button>
+    </section>
+    <!------------------------- sec3 ----------------------->
+    <section class="sec3">
+        <div class="sec3_up_place">
+            <p class="sec3_main_txt">Почему стоит выбрать именно нас?</p>
+            <img src="../cargo/assets/img/OrandeLine.png" alt="OrandeLine" class="OrandeLine">
+        </div>
+        <div class="sec3_line1">
+            <div class="sec3_block">
+                <img src="../cargo/assets/img/Document.png" alt="Document">
+                <p class="sec3_block_txt">Таможенное оформление груза</p>
+            </div>
+            <div class="sec3_block">
+                <img src="../cargo/assets/img/Defend.png" alt="Defend">
+                <p class="sec3_block_txt">Страховка груза</p>
+            </div>
+            <div class="sec3_block">
+                <img src="../cargo/assets/img/Loupe.png" alt="Loupe">
+                <p class="sec3_block_txt">Проверка товара на брак</p>
+            </div>
+            <div class="sec3_block">
+                <img src="../cargo/assets/img/DeliveryTruck.png" alt="DeliveryTruck">
+                <p class="sec3_block_txt">Доставка <br> в любой город РФ</p>
+            </div>
+        </div>
+        <div class="sec3_line1">
+            <div class="sec3_block3">
+                <img src="../cargo/assets/img/Chat.png" alt="Chat">
+                <p class="sec3_block_txt">Консолидация на складе</p>
+            </div>
+            <div class="sec3_block3">
+                <img src="../cargo/assets/img/ThumbUp.png" alt="ThumbUp">
+                <p class="sec3_block_txt">Ответственное хранение груза</p>
+            </div>
+            <div class="sec3_block2">
+                <img src="../cargo/assets/img/PaymentHelp.png" alt="PaymentHelp">
+                <p class="sec3_block_txt">Помощь в оплате товара</p>
+            </div>
+            <div class="sec3_block3">
+                <img src="../cargo/assets/img/Packing.png" alt="Packing">
+                <p class="sec3_block_txt2">Упаковка, переупаковка, паллетирование груза к международной перевозке</p>
+            </div>
+        </div>
+    </section>
+    <!------------------------- sec4 ----------------------->
+    <section class="sec4">
+        <p class="sec3_main_txt">Варианты доставки грузов из Китая</p>
+        <img src="../cargo/assets/img/GreenLine.png" alt="GreenLine" class="GreenLine">
+        <a href="#"><img src="../cargo/assets/img/arrow_left.png" alt="arrow_left" class="arrow_left"></a>
+        <a href="#"><img src="../cargo/assets/img/arrow_right.png" alt="arrow_left" class="arrow_right"></a>
+        <div class="sec4_blocks">
+            <div class="sec4_block">
+                <img src="../cargo/assets/img/UsualAuto.png" alt="UsualAuto" class="sec4_block_img">
+                <p class="sec4_main_txt">Авто - обычная</p>
+                <div class="sec4_line">
+                    <img src="../cargo/assets/img/calendar.svg" alt="calendar">
+                    <p class="sec4_line_txt">9-15 дней</p>
+                    <img src="../cargo/assets/img/box.svg" alt="box">
+                    <p class="sec4_line_txt">от 5 кг</p>
+                </div>
+                <div class="sec4_all_price">
+                    <p class="sec4_price">от <span>2,5</span></p>
+                    <p class="sec4_price2">$/кг</p>
+                </div>
+                <div class="sec4_buttons">
+                    <a href="#" class="btn5">
+                        Оставить заявку
+                    </a>
+                    <a href="#" class="btn6">Подробнее</a>
+                </div>
+            </div>
+            <div class="sec4_block">
+                <img src="../cargo/assets/img/SpeedAuto.png" alt="SpeedAuto" class="sec4_block_img">
+                <p class="sec4_main_txt">Авто - ускоренная</p>
+                <div class="sec4_line">
+                    <img src="../cargo/assets/img/calendar.svg" alt="calendar">
+                    <p class="sec4_line_txt">9-15 дней</p>
+                    <img src="../cargo/assets/img/box.svg" alt="box">
+                    <p class="sec4_line_txt">от 5 кг</p>
+                </div>
+                <div class="sec4_all_price">
+                    <p class="sec4_price">от <span>2,5</span></p>
+                    <p class="sec4_price2">$/кг</p>
+                </div>
+                <div class="sec4_buttons">
+                    <a href="#" class="btn5">
+                        Оставить заявку
+                    </a>
+                    <a href="#" class="btn6">Подробнее</a>
+                </div>
+            </div>
+            <div class="sec4_block">
+                <img src="../cargo/assets/img/Plane.png" alt="Plane" class="sec4_block_img">
+                <p class="sec4_main_txt">Авиа</p>
+                <div class="sec4_line">
+                    <img src="../cargo/assets/img/calendar.svg" alt="calendar">
+                    <p class="sec4_line_txt">9-15 дней</p>
+                    <img src="../cargo/assets/img/box.svg" alt="box">
+                    <p class="sec4_line_txt">от 5 кг</p>
+                </div>
+                <div class="sec4_all_price">
+                    <p class="sec4_price">от <span>2,5</span></p>
+                    <p class="sec4_price2">$/кг</p>
+                </div>
+                <div class="sec4_buttons">
+                    <a href="#" class="btn5">
+                        Оставить заявку
+                    </a>
+                    <a href="#" class="btn6">Подробнее</a>
                 </div>
             </div>
         </div>
     </section>
-    <section class="section2">
-        <div class="container">
-            <div class="section2_wrapper">
-                <h2 class="section2_title">Получить рассчет стоимости<br>доставки вашего груза</h2>
-                <div class="section2_box">
-                    <div class="section2_box_items">
-                        <div class="section2_box_item">
-                            <p class="section2_item_name">Категория товара:</p>
-                            <input type="text" class="section2_box_input" placeholder="Категория товара">
-                        </div>
-                        <div class="section2_box_item">
-                            <p class="section2_item_name">Стоимость груза:</p>
-                            <input type="text" class="section2_box_input" placeholder="Введите стоимость">
-                        </div>
-                    </div>
-                    <div class="section2_box_items">
-                        <div class="section2_box_item">
-                            <p class="section2_item_name">Вес груза (кг):</p>
-                            <input type="text" class="section2_box_input" placeholder="Категория товара">
-                        </div>
-                        <div class="section2_box_item">
-                            <p class="section2_item_name">Объем груза (м3): <span>Рассчитать</span></p>
-                            <input type="text" class="section2_box_input" placeholder="Введите стоимость">
-                        </div>
-                    </div>
-                    <div class="section2_box_items">
-                        <div class="section2_box_item">
-                            <div class="section2_box_items_check">
-                                <div class="section2_box_item_check">
-                                    <input type="checkbox" class="section2_box_checkbox" id="cb1"><label for="cb1">Страховка</label>
-                                </div>
-                                <div class="section2_box_item_check">
-                                    <input type="checkbox" class="section2_box_checkbox" id="cb2"><label for="cb2">Таможенное оформление</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="section2_box_item">
-                            <p class="section2_item_name">Код ТН ВЭД:</p>
-                            <input type="text" class="section2_box_input" placeholder="Введите код">
-                        </div>
-                    </div>
-                </div>
+    <!------------------------- sec5 ----------------------->
+    <section class="sec5">
+        <a href="#"><img src="../cargo/assets/img/arrow_left.png" alt="arrow_left" class="arrow_left"></a>
+        <a href="#"><img src="../cargo/assets/img/arrow_right.png" alt="arrow_left" class="arrow_right"></a>
+        <div class="sec5_upper_place">
+            <p class="sec5_maintxt">Услуги</p>
+            <img src="../cargo/assets/img/OrandeLine.png" alt="OrangeLine">
+        </div>
+        <div class="sec5_blocks">
+            <div class="sec5_block">
+                <p class="sec5_block_maintxt">Выкуп товара</p>
+                <p class="sec5_block_subtxt">Компания - это полный комплекс логистических услуг по доставке грузов из Китая в Россию - сборные грузы и цельные товарные партии, услуги посредника ТаоБао, КАРГО Китай-Россия. </p>
+                <a href="#" class="btn6">Подробнее</a>
+            </div>
+            <div class="sec5_block1">
+                <p class="sec5_block_maintxt">Выкуп товара</p>
+                <p class="sec5_block_subtxt">Компания - это полный комплекс логистических услуг по доставке грузов из Китая в Россию - сборные грузы и цельные товарные партии, услуги посредника ТаоБао, КАРГО Китай-Россия. </p>
+                <a href="#" class="btn6">Подробнее</a>
+            </div>
+            <div class="sec5_block2">
+                <p class="sec5_block_maintxt">Выкуп товара</p>
+                <p class="sec5_block_subtxt">Компания - это полный комплекс логистических услуг по доставке грузов из Китая в Россию - сборные грузы и цельные товарные партии, услуги посредника ТаоБао, КАРГО Китай-Россия. </p>
+                <a href="#" class="btn6">Подробнее</a>
             </div>
         </div>
     </section>
+    <!------------------------- sec6 ----------------------->
+    <section class="sec6">
+        
+    </section>
+    <!------------------------- sec7 ----------------------->
+    <section class="sec7">
+        
+    </section>
+    <!------------------------- sec8 ----------------------->
+    <section class="sec8">
+        
+    </section>
+    <!------------------------- footer ----------------------->
+    <footer>
+
+    </footer>
 </body>
 </html>
