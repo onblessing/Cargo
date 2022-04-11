@@ -180,6 +180,7 @@ body{
 .section2_box_items{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin-bottom: 20px;
 }
 .section2_box_items:last-child{
@@ -219,4 +220,12 @@ body{
 .section2_box_checkbox{
     width: 24px;
     height: 24px;
+}
+.section2_box_items_check{
+    display: flex;
+    flex-direction: column;
+}
+.section2_box_item_check{
+    display: flex;
+    align-items: center;
 }
